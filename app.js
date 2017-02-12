@@ -39,5 +39,5 @@ app.use(templating('views', {
 // add controller:
 app.use(controller());
 
-app.listen(8888);
-console.log('app started at port 8888...');
+app.listen(80);
+console.log('app started at port 80...');
